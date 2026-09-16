@@ -395,7 +395,7 @@ const projects = [
         github:
             "https://github.com/yourusername/portfolio",
 
-        live: "",
+        live: "https://arghajit-portfolio.vercel.app/",
 
         featured: true
     },
