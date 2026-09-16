@@ -33,7 +33,7 @@ const portfolio = {
     ===================================================== */
 
     resume: {
-        file: "../assets/Arghajit_Biswas_Resume.pdf",
+        file: "assets/Arghajit_Biswas_Resume.pdf",
         downloadName: "Arghajit_Biswas_Resume.pdf"
     }
 
@@ -384,7 +384,7 @@ const projects = [
         description:
             "A modern and responsive developer portfolio built to showcase my skills, projects, experience and journey.",
 
-        image: "../assets/image.png",
+        image: "assets/image.png",
 
         technologies: [
             "HTML",
@@ -406,7 +406,7 @@ const projects = [
         description:
             "AI-powered smart travel planning platform for personalized trips, budgets, recommendations, and crowd-aware travel planning.",
 
-        image: "../assets/bengaltrail-project-img.png",
+        image: "assets/bengaltrail-project-img.png",
 
         technologies: [
             "Python",
@@ -430,7 +430,7 @@ const projects = [
         description:
             "A creative Ganesh Chaturthi poster blending traditional festive elements with a modern visual design to celebrate the arrival of Lord Ganesha.",
 
-        image: "../assets/lord ganesha CT.png",
+        image: "assets/lord ganesha CT.png",
 
         technologies: [
             "Canva"
@@ -450,7 +450,7 @@ const projects = [
         description:
             "A cinematic Call of Duty poster featuring a bold military aesthetic, dramatic composition, and intense visual elements inspired by the game's action-packed atmosphere.",
 
-        image: "../assets/COD PINTREST VERSION.png",
+        image: "assets/COD PINTREST VERSION.png",
 
         technologies: [
             "Canva"
@@ -762,7 +762,7 @@ function createHeroVisual() {
         "profile-person";
 
     person.src =
-        "../assets/no-bg2.png";
+        "assets/no-bg2.png";
 
     person.alt =
         portfolio.name;
@@ -993,7 +993,7 @@ function createAbout() {
         <div class="about-image-container">
 
             <img
-                src="../assets/about-section.jpg"
+                src="assets/about-section.jpg"
                 class="about-image"
                 alt="About ${portfolio.name}"
             >
